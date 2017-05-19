@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Location Longitude:"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/longitude_display"
+        android:layout_margin="15dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Location Latitude:"
+
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/latitude_display"
+        android:layout_margin="15dp"
+        android:textSize="18dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_margin="15dp"
+        android:text="Start Tracking Location!"
+        android:onClick="startTrackingLocationPressed"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_margin="15dp"
+        android:text="Stop Tracking Location!"
+        android:onClick="stopTrackingLocationPressed"/>
+
+
+</LinearLayout>
